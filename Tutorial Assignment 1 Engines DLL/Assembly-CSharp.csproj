@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ControllerHandel.cs" />
     <Compile Include="Assets\PluginTesterScript.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/qszmu/Documents/Git Repos/Engines Invidual Assignment 1/Tutorial Assignment 1 Engines DLL/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
