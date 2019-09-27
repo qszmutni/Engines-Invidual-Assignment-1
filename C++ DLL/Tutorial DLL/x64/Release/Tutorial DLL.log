@@ -1,0 +1,13 @@
+﻿  SimpleClass.cpp
+c:\users\qszmu\source\repos\tutorial dll\tutorial dll\simpleclass.h(20): warning C4251: 'SimpleClass::_pos': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'SimpleClass'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  Wrapper.cpp
+c:\users\qszmu\source\repos\tutorial dll\tutorial dll\simpleclass.h(20): warning C4251: 'SimpleClass::_pos': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'SimpleClass'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\qszmu\source\repos\tutorial dll\tutorial dll\wrapper.h(18): warning C4190: 'wrapperGet' has C-linkage specified, but returns UDT 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' which is incompatible with C
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+     Creating library C:\Users\qszmu\source\repos\Tutorial DLL\x64\Release\Tutorial DLL.lib and object C:\Users\qszmu\source\repos\Tutorial DLL\x64\Release\Tutorial DLL.exp
+  Generating code
+  All 246 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Tutorial DLL.vcxproj -> C:\Users\qszmu\source\repos\Tutorial DLL\x64\Release\Tutorial DLL.dll

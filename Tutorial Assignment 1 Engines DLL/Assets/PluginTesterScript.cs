@@ -12,7 +12,7 @@ public class PluginTesterScript : MonoBehaviour
     private static extern int SimpleFunction();
 
     [DllImport(DLL_NAME)]
-    private static extern int wrapperWrite(float x, float y, float z);
+    private static extern void wrapperWrite(float x, float y, float z);
 
     [DllImport(DLL_NAME)]
     private static extern void wrapperRead();
